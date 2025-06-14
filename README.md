@@ -65,7 +65,7 @@ Steps that have to be followed for reproducing results are given as follows:
 1. Run `article_scrapper.py` module to create dataset
 2. According to type of experiment (node classification, node clustering, or link prediction) assign `gnn_model_name` variable to desired GNN name in one of the `node_classification.py`, `node_clustering.py`, or `link_prediction.py` modules  
 3. Assign `epochs` variable to desired number of epochs
-4. Assign `gnn_model` variable to desired GNN model available in `GNNs.py`
+4. Assign `gnn_model` variable to desired GNN model available in `GNNs.py` with any valid configuration
 5. Run corresponding module (`node_classification.py`, `node_clustering.py`, or `link_prediction.py`)
 6. Plots are generated under the folders specified in the plots section above according to task type
 
