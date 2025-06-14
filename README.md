@@ -89,6 +89,11 @@ Following dependencies are required to be able to run all tasks in project:
 - collections Module
 - torcheval.metrics.functional Module
 - torch_geometric Module
+  
+NOTE: when any of the `node_classification.py`, `node_clustering.py`, or `link_prediction.py` modules are run, by default
+they run for 80 iterations for each GNN configuration to average experimental results, so 80 plots are generated for each
+evaluation metric. For simplicity and in terms of keeping project size reasonable only 80th iteration's plots are provided
+in corresponding plot folders.
 
 More information regarding conducted experiments and followed methodology can be found in paper[^2].
 [^2]: [Link to `Survey of Graph Neural Network Models on DergiPark Scientific Article Dataset` paper](https://arxiv.org/abs/2004.07180)
