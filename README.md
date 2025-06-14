@@ -72,8 +72,8 @@ Steps that have to be followed for reproducing results are given as follows:
 6. Plots are generated under the folders specified in the plots section above according to task type
 
 ## Dependencies
-Following dependencies are required to be able to run all tasks in project. It is suggested to create a virtual environment
-for project which is named `myenv` in project provided in this repository under the Project folder and Install all required dependencies to this virtual environment with pip tool.
+It is suggested to create a virtual environment for project which is named `myenv` in project provided in this repository under the Project folder and Install all required dependencies to this virtual environment with pip tool.
+Following dependencies are required to be able to run all tasks in project:
 
 - BeautifulSoup Module
 - pandas Module
