@@ -96,4 +96,4 @@ evaluation metric. For simplicity and in terms of keeping project size reasonabl
 in corresponding plot folders.
 
 More information regarding conducted experiments and followed methodology can be found in paper[^2].
-[^2]: [Link to `Survey of Graph Neural Network Models on DergiPark Scientific Article Dataset` paper](https://arxiv.org/abs/2004.07180)
+[^2]: [Link to `Survey of Graph Neural Network Models on DergiPark Scientific Article Dataset` paper](./CENG532_Group_12_Project_Report.pdf)
